@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: hip;
-    src: url(fonte/Raslani\ Hip\ Hop.ttf);
+    font-family: car;
+    src: url(fonte/Camiro.ttf);
 }
 
 *{
@@ -24,13 +24,18 @@ header h1{
     color: white;
     padding-bottom: 30px;
     padding-top: 20px;
+    font-family: car;
+    font-size: 2.8em;
     
 }
 header p{
     background-color: #411212;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    font-size: 1.9em;
+    font-family: car;
 }
 
 nav{
@@ -57,19 +62,59 @@ main{
     padding: 18px;
     margin: auto;
     max-width: 800px;
+    box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.603);
 }
 
 main h1{
     font-family: hip;
-    font-size: 2.3em;
+    font-size: 2.4em;
     padding-bottom: 10px;
+    font-family: car;
+    color: #540b0e;
 }
 main h2{
-    font-size: 2.em;
+    font-size: 2.0em;
+    padding-top: 10px;
     padding-bottom: 10px;
+    font-family: car;
+    background-image: linear-gradient(to right, #c2474b, transparent );
 }
+
 main p{
     text-align: justify;
     text-indent: 10px;
     line-height: 1.5em;
+}
+aside{
+    background-color: #663434;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.582); 
+}
+aside > h3{
+    color: white;
+    font-family: Car;
+    font-size: 1.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    color: white;
+}
+aside > p{
+    color: white;
+    padding-bottom: 10px;
+}
+strong{
+    color: red;
+}
+
+footer{
+    background-color:#411212;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
