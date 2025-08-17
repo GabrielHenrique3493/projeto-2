@@ -111,8 +111,12 @@ aside > p{
 strong{
     color: red;
 }
-audio{
-    
+img.primeiro{
+    border:7px inset #5f1818;
+}
+
+img.segundo{
+    border:7px inset #7FB8B9;
 }
 
 footer{
