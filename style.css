@@ -111,6 +111,27 @@ aside > p{
 strong{
     color: red;
 }
+section.primeiro{
+    padding-top: 10vh;
+    padding-bottom: 40vh;
+    background-image: url(imagens/veigh-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 1px 0px 16px 6px black;
+}
+
+section.segundo{
+    padding-top: 10vh;
+    padding-bottom: 40vh;
+    background-image: url(imagens/veigh-agua1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    box-shadow: inset 1px 0px 16px 6px black;
+}
 
 footer{
     background-color:#411212;
